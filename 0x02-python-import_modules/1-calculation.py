@@ -13,6 +13,6 @@ if __name__ == "__main__":
     multiply = mul(a, b)
     divide = div(a, b)
     print("{} + {} = {}".format(a, b, adding))
-    print(f"{a} - {b} = {minus}")
+    print("{} - {} = {}".format(a, b, minus))
     print("{} + {} = {}".format(a, b, multiply))
     print("{} + {} = {}".format(a, b, divide))
