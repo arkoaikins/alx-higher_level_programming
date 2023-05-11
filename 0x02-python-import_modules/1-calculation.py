@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 """
  that imports functions from a file , does some Maths,
- and prints the result
+ and displays the result
 """
 
 if __name__ == "__main__":
