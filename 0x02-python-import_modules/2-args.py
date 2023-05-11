@@ -8,7 +8,7 @@ if __name__ == "__main__":
     counter = len(argv)
     # when no argument is passed
     if counter == 1:
-        print("{} argument.".format(counter - 1))
+        print("{} arguments.".format(counter - 1))
     # when 1 argument is passed
     elif counter == 2:
         print("{} argument:".format(counter - 1))
