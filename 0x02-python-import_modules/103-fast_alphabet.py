@@ -1,4 +1,3 @@
 #!/usr/bin/python3
-# prints alphabets in uppercase
 import string
-print(string.ascii_uppercase)
+print(string.ascii_uppercase)  # prints alphabets in uppercase
