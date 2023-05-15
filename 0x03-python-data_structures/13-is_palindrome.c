@@ -25,7 +25,7 @@ int is_palindrome(listint_t **head)
 	stop = *head;
 	for (; i < cycl_len; i = i + 2)
 	{
-		if (begin[i].n != stop[len_list].n)
+		if (begin[i].n != stop[list_of_len].n)
 			return (0);
 		list_of_len = list_of_len - 2;
 	}
@@ -69,8 +69,8 @@ size_t list_f_len(const listint_t *h)
 
 	while (h != NULL)
 	{
-		++lenght;
+		++leng;
 		h = h->next;
 	}
-	return (lenght);
+	return (leng);
 }
