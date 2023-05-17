@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 """
-a function that replaces all occurrences of an element by another in a new list.
+a function that replaces all occurrences of an element
+by another in a new list.
 my_list: is the initial list
 Search: is the element to replace in the list
 Replace: is the new element
