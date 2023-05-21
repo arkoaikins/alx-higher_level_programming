@@ -96,14 +96,14 @@ Python script that print object-oriented programming with Python, followed by a 
 - not allowed to create new variables
 - not allowed to use string literals
 #### Tested code with
-
+![image](https://github.com/arkoaikins/alx-higher_level_programming/assets/110135034/ae3c8838-363d-4b00-8b9b-0f9700cc3944)
 - file: 8-concat_edges.py
 
 ### 9. Easter Egg
 Python script that prints “The Zen of Python”, by TimPeters, followed by a new line.
 - Your script should be maximum 98 characters long (check with wc -m 9-easter_egg.py)
 #### Tested code with
-
+![image](https://github.com/arkoaikins/alx-higher_level_programming/assets/110135034/401b8f7f-cff7-430c-a516-c68d421d43f5)
 - file: 9-easter_egg.py
 
 ### 10. Linked list cycle
@@ -119,7 +119,11 @@ A function in C that checks if a singly linked list has a cycle in it
    - malloc 
    - free
 #### Tested code with
-
+![image](https://github.com/arkoaikins/alx-higher_level_programming/assets/110135034/401b8f7f-cff7-430c-a516-c68d421d43f5)
+![image](https://github.com/arkoaikins/alx-higher_level_programming/assets/110135034/59a018b5-fa8e-4359-bf06-1d9674fffb4a)
+![image](https://github.com/arkoaikins/alx-higher_level_programming/assets/110135034/9b3c34cd-fa3f-4198-97b2-78e0cd6c21f7)i
+![image](https://github.com/arkoaikins/alx-higher_level_programming/assets/110135034/4b5efacc-22de-4846-9897-1e47e12463fd)
+![image](https://github.com/arkoaikins/alx-higher_level_programming/assets/110135034/3f582a1c-cba8-42d7-a85b-e34b8ff838e6)
 - File: 10-check_cycle.c, lists.h
 
 ### 11. Hello, write
