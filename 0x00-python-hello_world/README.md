@@ -102,8 +102,6 @@ Python script that print object-oriented programming with Python, followed by a 
 ### 9. Easter Egg
 Python script that prints “The Zen of Python”, by TimPeters, followed by a new line.
 - Your script should be maximum 98 characters long (check with wc -m 9-easter_egg.py)
-#### Tested code with
-![image](https://github.com/arkoaikins/alx-higher_level_programming/assets/110135034/401b8f7f-cff7-430c-a516-c68d421d43f5)
 - file: 9-easter_egg.py
 
 ### 10. Linked list cycle
@@ -133,7 +131,7 @@ Python script that prints exactly and that piece of art is useful - Dora Korpar,
 - script should print to stderr
 - script should exit with the status code 1
 #### Tested code with
-
+![image](https://github.com/arkoaikins/alx-higher_level_programming/assets/110135034/ba7a858a-1b93-4a3a-aef7-00ea035feeac)
 - File:100-write.py
 
 ### 12. Compile
@@ -141,14 +139,12 @@ Python script that prints exactly and that piece of art is useful - Dora Korpar,
 - The Python file name is stored in the environment variable $PYFILE
 - output filename  $PYFILEc (ex: export PYFILE=my_main.py => output filename: my_main.pyc)
 #### Tested code with
-
+![image](https://github.com/arkoaikins/alx-higher_level_programming/assets/110135034/27f1127e-8ffa-4b3f-82e5-c9b48c58bf44)
 - File: 101-compile
 
 ### 13. ByteCode -> Python 
 Python function def magic_calculation(a, b): that does exactly the same as the following Python bytecode:
 
 #### Tested code with
-
+![image](https://github.com/arkoaikins/alx-higher_level_programming/assets/110135034/498a87e1-5c44-42cb-bec1-29abc2cb4690)
 - File: 102-magic_calculation.py
-
-
