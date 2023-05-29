@@ -1,3 +1,4 @@
+#include <Python.h>
 #include <stdlib.h>
 #include <object.h>
 #include <bytesobject.h>
@@ -29,12 +30,12 @@ void print_python_list(PyObject *p)
 		return;
 	}
 
-	syz = ((PyVarObject *)p)->ob_syz;
+	syz = ((PyVarObject *)p)->ob_size;
 	printf("[*] Size of the Python List = %lu\n", syz);
 	printf("[*] Allocated = %lu\n", list->allocated);
 	for (i = 0; i < syz; i++)
 	{
-		typ = (list->ob_item[i])->ob_typ->tp_name;
+		typ = (list->ob_item[i])->ob_type->tp_name;
 		printf("Element %i: %s\n", i, typ);
 		if (!strcmp(typ, "bytes"))
 			print_python_bytes(list->ob_item[i]);
@@ -60,7 +61,7 @@ void print_python_bytes(PyObject *p)
 		printf("  [ERROR] Invalid Bytes Object\n");
 		return;
 	}
-	syz = ((PyVarObject *)p)->ob_syz;
+	syz = ((PyVarObject *)p)->ob_size;
 	trying_str = ((PyBytesObject *)p)->ob_sval;
 	printf("  size: %lu\n", syz);
 	printf("  trying string: %s\n", trying_str);
