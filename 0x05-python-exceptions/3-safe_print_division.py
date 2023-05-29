@@ -4,6 +4,8 @@ safe_print_division - divides 2 integers
 @a:first integer
 @b:Second integer
 """
+
+
 def safe_print_division(a, b):
     try:
         result = a / b
@@ -11,4 +13,4 @@ def safe_print_division(a, b):
         result = None
     finally:
         print("Inside result: {}".format(result))
-    return 
+    return
