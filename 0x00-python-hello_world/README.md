@@ -148,3 +148,6 @@ Python function def magic_calculation(a, b): that does exactly the same as the f
 #### Tested code with
 ![image](https://github.com/arkoaikins/alx-higher_level_programming/assets/110135034/498a87e1-5c44-42cb-bec1-29abc2cb4690)
 - File: 102-magic_calculation.py
+
+## Author:page_with_curl:
+Edwin Arko Aikins
