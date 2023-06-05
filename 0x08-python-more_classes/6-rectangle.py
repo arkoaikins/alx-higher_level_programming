@@ -8,9 +8,17 @@ class Rectangle:
     """
     class rectange with height and width attributes
     """
-    number_of_instances = 0
 
+    number_of_instances = 0
+    """
+    set number of instances
+    """
     def __init__(self, width=0, height=0):
+        """
+        set increment of number of instances
+        """
+        type(self).number_of_instances += 1
+
         """
         Initializes the attributes of the rectange
         """
