@@ -7,4 +7,7 @@ new instance attribute is called first_name
 
 
 class LockedClass:
+    """
+    lockedClass that allows only first name
+    """
     __slots__ = ['first_name']
