@@ -1,0 +1,66 @@
+#This is a series of tests that is required for 
+testing your codes to see if it works on all possible edge cases
+================================================================
+
+How to Use 4-print_square.py
+============================
+
+This test check the function def print_square(size): 
+which is in the file 4-print_square.py ,on all the possibe cases.
+The function prints a square with the character #.
+
+
+case 0:
+    >>> print_square = __import__('4-print_square').print_square
+    
+
+case 1:
+    >>> print_square(0)
+
+case 2:
+    >>> print_square("not an int")
+    Traceback (most recent call last):
+    TypeError: size must be an integer
+
+case 3:
+    >>> print_square(5.5)
+    Traceback (most recent call last):
+    TypeError: size must be an integer
+
+
+case 4:
+    >>> print_square(None)
+    Traceback (most recent call last):
+    TypeError: size must be an integer
+
+
+case 5:
+    >>> print_square(-7)
+    Traceback (most recent call last):
+    ValueError: size must be >= 0
+
+case 6:
+    >>> print_square(4)
+    ####
+    ####
+    ####
+    ####
+
+case 7:
+    >>> print_square(10)
+    ##########
+    ##########
+    ##########
+    ##########
+    ##########
+    ##########
+    ##########
+    ##########
+    ##########
+    ##########
+
+
+case 8:
+    >>> print_square(-7.5)
+    Traceback (most recent call last):
+    TypeError: size must be an integer
