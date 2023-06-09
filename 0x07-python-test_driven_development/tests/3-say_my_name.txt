@@ -13,7 +13,6 @@ The function  prints My name is first name last name
 case 0:
     >>> say_my_name = __import__("3-say_my_name").say_my_name
 
-
 case 1:
     >>> say_my_name("Bright", "Iniabasi")
     My name is Bright Iniabasi
