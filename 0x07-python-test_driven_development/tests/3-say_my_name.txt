@@ -1,0 +1,48 @@
+#This is a series of tests that is required for 
+testing your codes to see if it works on all possible edge cases
+================================================================
+
+Test for `3-say_my_name` module
+===============================
+
+This test check the function def say_my_name(first_name, last_name=""): 
+which is in the file 3-say_my_name.py ,on all the possibe cases.
+The function  prints My name is first name last name
+
+
+case 0:
+    >>> say_my_name = __import__("3-say_my_name").say_my_name
+
+
+case 1:
+    >>> say_my_name("Bright", "Iniabasi")
+    My name is Bright Iniabasi
+
+
+case 2:
+    >>> say_my_name("Bright", 10000)
+    Traceback (most recent call last):
+    TypeError: last_name must be a string
+
+
+case 3:
+    >>> say_my_name(["Bright", "Iniabasi"], "hello")
+    Traceback (most recent call last):
+    TypeError: first_name must be a string
+
+
+case 4:
+    >>> say_my_name(["Bright"], ["Iniabasi"])
+    Traceback (most recent call last):
+    TypeError: first_name must be a string
+
+
+case 5:
+    >>> say_my_name("Bright")
+    My name is Bright 
+
+
+case 6:
+    >>> say_my_name()
+    Traceback (most recent call last):
+    TypeError: first_name must be a string
