@@ -1,0 +1,106 @@
+#This is a series of tests that is required for 
+testing your codes to see if it works on all possible edge cases
+================================================================
+
+
+Test for ``0-add_integer`` module
+=================================
+
+This test check the function def add_integer(a, b=98) which is in the file
+0-add_integer.py,on all the possibe cases.The function adds two 
+integers/floats a and b,otherwise raise TypeError.The two parameters have to 
+be casted to integers if they are float.
+
+
+
+case 0:
+    >>> add_integer = __import__("0-add_integer").add_integer
+
+
+case 1:
+    >>> add_integer(5, 8)
+    13
+    >>> add_integer(5)
+    103
+
+case 2:
+    >>> add_integer(-5, -8)
+    -13
+
+case 3:
+    >>> add_integer(-5, 8)
+    3
+
+case 4:
+    >>> add_integer(9, 8.7)
+    17
+
+case 5:
+    >>> add_integer("hello", "there")
+    Traceback (most recent call last):
+    TypeError: a must be an integer
+
+
+case 6:
+    >>> add_integer(5.5, 3.2)
+    8
+    >>> add_integer(float('inf'))
+    Traceback (most recent call last):
+    OverflowError: float overflow
+
+case 7:
+    >>> add_integer(-5.5, -3.2)
+    -8
+    >>> add_integer(float('-inf'))
+    Traceback (most recent call last):
+    OverflowError: float overflow
+
+
+case 8:
+    >>> add_integer(5.5, -3.2)
+    2
+
+
+case 9:
+    >>> add_integer(5, "h")
+    Traceback (most recent call last):
+    TypeError: b must be an integer
+    
+
+case 10:
+    >>> add_integer("6", "h")
+    Traceback (most recent call last):
+    TypeError: a must be an integer
+
+
+case 11:
+    >>> add_integer([5, 9], 6)
+    Traceback (most recent call last):
+    TypeError: a must be an integer
+
+case 12:
+    >>> add_integer(float('nan'))
+    Traceback (most recent call last):
+    ValueError: cannot convert float NaN to integer
+
+case 13:
+    >>> add_integer("hello", [5, 9])
+    Traceback (most recent call last):
+    TypeError: a must be an integer
+
+
+case 14:
+    >>> add_integer(None, 6)
+    Traceback (most recent call last):
+    TypeError: a must be an integer
+
+
+case 15:
+    >>> add_integer(8, None)
+    Traceback (most recent call last):
+    TypeError: b must be an integer
+
+case 16:
+    >>> add_integer(None, None)
+    Traceback (most recent call last):
+    TypeError: a must be an integer
