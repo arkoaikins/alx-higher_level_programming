@@ -1,0 +1,91 @@
+#This is a series of tests that is required for 
+testing your codes to see if it works on all possible edge cases
+================================================================
+
+
+Test for 2-matrix_divided module
+==================================
+
+This test check the function def matrix_divided(matrix, div): 
+which is in the file 2-matrix_divided.py,on all the possibe cases.
+The function divides all elements of a matrix 
+
+case 0:
+    >>> matrix_divided = __import__("2-matrix_divided").matrix_divided
+
+case 1:
+    >>> matrix = [[1, 2, 3], [4, 5, 6]]
+    >>> matrix_divided(matrix, 3)
+    [[0.33, 0.67, 1.0], [1.33, 1.67, 2.0]]
+    >>> matrix = [[1, -2, 3], [4, -5, -6]]
+    >>> matrix_divided(matrix, 3)
+    [[0.33, -0.67, 1.0], [1.33, -1.67, -2.0]]
+
+
+case 2:
+    >>> matrix = [[1.21, 4.8], [4.2, 9.04]]
+    >>> matrix_divided(matrix, 3)
+    [[0.4, 1.6], [1.4, 3.01]]
+    >>> matrix = [[1.21, -4.8], [4.2, 9.04]]
+    >>> matrix_divided(matrix, 3)
+    [[0.4, -1.6], [1.4, 3.01]]
+
+
+case 3:
+    >>> matrix = [[1, 2, 5], ["g", 8, 2]]
+    >>> matrix_divided(matrix, 2)
+    Traceback (most recent call last):
+        ...
+    TypeError: matrix must be a matrix (list of lists) of integers/floats
+
+
+case 4:
+    >>> matrix = [[1], [2, 4]]
+    >>> matrix_divided(matrix, 3)
+    Traceback (most recent call last):
+        ...
+    TypeError: Each row of the matrix must have the same size
+
+
+case 5:
+    >>> matrix = [[1, 2, 3], [4, 5, 6]]
+    >>> matrix_divided(matrix, 0)
+    Traceback (most recent call last):
+    ZeroDivisionError: division by zero
+
+
+case 6:
+    >>> matrix = [[1, 2, 3], [4, 5, 6]]
+    >>> matrix_divided(matrix, 4.92)
+    [[0.2, 0.41, 0.61], [0.81, 1.02, 1.22]]
+    >>> matrix = [[1, 2, 3], [4, 5, 6]]
+    >>> matrix_divided(matrix, -4.92)
+    [[-0.2, -0.41, -0.61], [-0.81, -1.02, -1.22]]
+
+
+case 7:
+    >>> matrix = [[1, 2, 3], [4, 5, 6]]
+    >>> matrix_divided(matrix, 4)
+    [[0.25, 0.5, 0.75], [1.0, 1.25, 1.5]]
+    >>> matrix = [[1, 2, 3], [4, 5, 6]]
+    >>> matrix_divided(matrix, -4)
+    [[-0.25, -0.5, -0.75], [-1.0, -1.25, -1.5]]
+
+
+case 8:
+    >>> matrix = [[2, 4, 6], [5, 8, 9]]
+    >>> matrix_divided(matrix, "Hello")
+    Traceback (most recent call last):
+    TypeError: div must be a number
+
+
+case 9:
+    >>> matrix = [[3, 4, 5], [5, 6, 7]]
+    >>> matrix_divided(matrix, float('inf'))
+    Traceback (most recent call last):
+    OverflowError: float overflow
+
+case 10:
+    >>> matrix_divided(matrix, float('-inf'))
+    Traceback (most recent call last):
+    OverflowError: float overflow
