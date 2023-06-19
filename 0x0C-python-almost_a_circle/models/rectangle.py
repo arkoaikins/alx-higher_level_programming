@@ -148,3 +148,21 @@ class Rectangle(Base):
             print()
 
         """task5 ends here"""
+
+        """
+        task 6:
+        Update the class Rectangle by overriding the __str__ method so that it
+        returns [Rectangle] (<id>) <x>/<y> - <width>/<height>
+        """
+    def __str__(self):
+        """
+        __str__ - Update the class Rectangle to returns
+                  [Rectangle] (<id>) <x>/<y> - <width>/<height>
+        """
+        str_retrns = "[Rectangle] ({}) {}/{} - {}/{}"
+        id_d = self.id
+        x_x = self.x
+        y_y = self.y
+        w = self.width
+        h = self.height
+        return str_retrns.format(id_d, x_x, y_y, w, h)
