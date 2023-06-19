@@ -168,4 +168,32 @@ class Rectangle(Base):
         h = self.height
         return str_retrns.format(id_d, x_x, y_y, w, h)
 
-        """task 6 ends here"""
+        """
+        task 6 ends here
+        task 7 is with task 5
+        """
+
+        """
+        task 8:
+        Update the class Rectangle by adding the public method
+        def update(self, *args): that assigns an argument to each attribute
+        and task 9:
+        Update the class Rectangle by updating the public method
+        def update(self, *args): by changing the prototype to
+        update(self, *args, **kwargs) that assigns a key/value argument
+        to attributes
+        """
+
+    def update(self, *args, **kwargs):
+        """
+        Update -  assigns a key/value argument to attributes
+        args - args: arguments to the values of the attributes
+               kwargs: double pointer to the dictionary
+        """
+        attr = ['id', 'width', 'height', 'x', 'y']
+        if len(args) != 0:
+            for i, arg in enumerate(args):
+                setattr(self, attr[i], arg)
+        else:
+            for key, value in kwargs.items():
+                setattr(self, key, value)
