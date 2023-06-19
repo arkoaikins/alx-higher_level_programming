@@ -128,3 +128,23 @@ class Rectangle(Base):
         return self.__width * self.__height
 
         """end of task 4"""
+
+        """
+        task 5:
+        Update the class Rectangle by adding the public method def
+        display(self): that prints in stdout the Rectangle instance
+        with the character # - you don’t need to handle x and y here.
+        """
+    def display(self):
+        """
+        display - prints in stdout the Rectangle instance with the character #
+        """
+        for _ in range(self.__y):
+            print()
+        for _ in range(self.__height):
+            print(' ' * self.__x, end="")
+            for _ in range(self.__width):
+                print('#', end="")
+            print()
+
+        """task5 ends here"""
