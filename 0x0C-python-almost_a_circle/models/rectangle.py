@@ -138,6 +138,7 @@ class Rectangle(Base):
     def display(self):
         """
         display - prints in stdout the Rectangle instance with the character #
+        task 7 - taking care of x and y
         """
         for _ in range(self.__y):
             print()
@@ -166,3 +167,5 @@ class Rectangle(Base):
         w = self.width
         h = self.height
         return str_retrns.format(id_d, x_x, y_y, w, h)
+
+        """task 6 ends here"""
