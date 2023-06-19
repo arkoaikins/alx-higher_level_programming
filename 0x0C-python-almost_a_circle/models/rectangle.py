@@ -109,3 +109,22 @@ class Rectangle(Base):
         if value < 0:
             raise ValueError("y must be >= 0")
         self.__y = value
+
+        """
+        task 3 ends here
+        """
+
+        """
+        task 4:
+        Updating the class Rectangle by adding the public method
+        def area(self):that returns the area value of the Rectangle instance.
+        """
+    def area(self):
+        """
+        area - public method
+        return: the area value of the rectangle instances
+
+        """
+        return self.__width * self.__height
+
+        """end of task 4"""
