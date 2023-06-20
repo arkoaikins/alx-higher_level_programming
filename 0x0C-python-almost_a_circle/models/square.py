@@ -37,3 +37,21 @@ class Square(Rectangle):
         """
         task 10 ends here
         """
+
+        """
+        task 11
+        Update the class Square by adding the public getter and setter size
+        """
+    @property
+    def size(self):
+        """ size -  Get size of the square """
+        return self.width
+
+    @size.setter
+    def size(self, value):
+        """
+        size -Sets size of the square
+        args- value: the value of square's height and width
+        """
+        self.width = value
+        self.height = value
