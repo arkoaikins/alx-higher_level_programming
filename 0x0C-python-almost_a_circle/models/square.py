@@ -58,7 +58,6 @@ class Square(Rectangle):
 
         """task 11 ends here """
 
-
         """
         task 12:
         Update the class Square by adding the public method
