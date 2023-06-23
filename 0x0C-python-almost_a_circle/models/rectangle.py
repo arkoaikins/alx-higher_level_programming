@@ -197,3 +197,18 @@ class Rectangle(Base):
         else:
             for key, value in kwargs.items():
                 setattr(self, key, value)
+
+    """
+    Task 13
+    Update the class Rectangle by adding the public method
+    def to_dictionary(self): that returns the dictionary representation
+    of a Rectangle
+    """
+    def to_dictionary(self):
+        """
+        to_dictionary -  returns the dictionary representation of a Rectangle
+        """
+        return {"id": self.id, "width": self.width,
+                "height": self.height, "x": self.x, "y": self.y}
+
+        """task 13 ends here"""
