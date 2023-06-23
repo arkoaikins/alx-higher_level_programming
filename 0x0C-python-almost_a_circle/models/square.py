@@ -100,3 +100,17 @@ class Square(Rectangle):
                     self.x = v
                 elif k == "y":
                     self.y = v
+
+    """
+    task 14:
+    Update the class Square by adding the public method
+    def to_dictionary(self):that returns the dictionary representation
+    of a Square
+    """
+    def to_dictionary(self):
+        """
+        to_dictionary - returns the dictionary representation
+        of a Rectangle object
+        """
+        return {"id": self.id, "size": self.width,
+                "x": self.x, "y": self.y}
