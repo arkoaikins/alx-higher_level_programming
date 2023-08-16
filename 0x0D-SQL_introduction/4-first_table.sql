@@ -4,6 +4,6 @@
 -- database name will be passed as an argument of the mysql command
 -- If the table first_table already exists, your script will not fall
 CREATE TABLE IF NOT EXISTS first_table (
-	id INT
+	id INT,
 	name VARCHAR(256)
 );
