@@ -3,7 +3,6 @@
 This script contains the class definition of a City
 """
 from model_state import Base,State
-from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy import Column, Integer, String, ForeignKey
 
 class City(Base):
