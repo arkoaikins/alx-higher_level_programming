@@ -115,29 +115,53 @@ Run code with
 `./101-starwars_characters.js 3`
 Filename: 101-starwars_characters.js
 
+### Useful resources
+Task0
+
+[first one](https://nodejs.dev/en/learn/reading-files-with-nodejs/)
+
+Task1
+
+[first one](https://nodejs.dev/en/learn/writing-files-with-nodejs/)
+
+[Second one](https://blog.logrocket.com/using-writefilesync-node-js/)
+
+Task2
+
+[First one](https://www.geeksforgeeks.org/node-js-request-module/)
+
+[Second one](https://www.scaler.com/topics/nodejs/node-js-request/)
+
+Task3
+
+[First one](if u dont wanna use JSON.parse(body))
+
+request have option for json, check last chapter :
+
+[Second one](https://dev.to/isalevine/three-ways-to-retrieve-json-from-the-web-using-node-js-3c88)
+
+Task4
+
+this can be helpful, if wanna do it string way
+
+[first one](https://stackabuse.com/javascript-how-to-count-the-number-of-substring-occurrences-in-a-string/)
+
+Task5
+
+same as task1 and task2
+
+Task6
+
+[first one](https://www.microverse.org/blog/how-to-loop-through-the-array-of-json-objects-in-javascript)
+[Second one](https://www.scaler.com/topics/add-property-to-object-javascript/)
 
 
+### Some other useful resources for concepts
 
+[Working with JSON data](https://intranet.alxswe.com/rltoken/ONv-sSv-FA87Mc5rMZmO6A)
 
+[The workflow of accessing the attributes of a simply-created JSON object by Jimmy Tran from Cohort 1 - San Francisco](https://intranet.alxswe.com/rltoken/zm0h7FqpQCZZpPZqxxwLxA)
 
+[request module](https://intranet.alxswe.com/rltoken/goymbxGy-cTc5ZdKBTUcTQ)
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+[Modern JS](https://intranet.alxswe.com/rltoken/j2PStAUtVPdXKwrrFxpt0g)
